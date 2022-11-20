@@ -45,6 +45,7 @@
 
     .nav-list {
         width: 100%;
+        height: auto;
         position: fixed;
         left: -100%;
         top: 70px;
