@@ -1,78 +1,8 @@
-@media screen and (max-width: 2560px) {
-
-    .sec h1,
-    .sec h2 {
-        font-size: 8em;
-    }
-
-    .sec h3 {
-        font-size: 2.5em;
-        top: 65%;
-        transform: translateY(-65%);
-    }
-
-}
-
-@media screen and (max-width: 1440px) {
-
-    .sec h1,
-    .sec h2 {
-        font-size: 5em;
-    }
-
-    .sec h3 {
-        font-size: 1.3em;
-        top: 65%;
-        transform: translateY(-65%);
-    }
-}
-
-@media screen and (max-width: 1024px) {
-
-    .sec h1,
-    .sec h2 {
-        font-size: 4em;
-    }
-
-    .sec h3 {
-        font-size: 1em;
-        top: 65%;
-        transform: translateY(-65%);
-    }
-}
-
 @media screen and (max-width: 768px) {
 
-    .nav-list {
-        width: 100%;
-        border: 5px solid var(--clr2);
-        position: fixed;
-        left: -100%;
-        top: 70px;
-        /* z-index: 5; */
-        border-radius: 0 0 25px 25px;
-        background: #ffffff;
-        flex-direction: column;
-        align-items: center;
-        transition: all 0.5s ease-in-out;
-    }
-
-    .nav-list.active {
-        left: 0;
-    }
-
-    .nav-item {
-        margin: 10px auto;
-        padding: 2px 10px;
-    }
-
-    .nav-link {
-        color: #000;
-        padding: 0 5px;
-    }
-
-    .nav-link:hover::after {
-        background: #000;
+    .nav-list,
+    .desk-list {
+        display: none;
     }
 
     .menu-icon {
@@ -91,154 +21,33 @@
         transform: translateY(-8px) rotate(-45deg);
     }
 
-    .logo a {
-        display: none;
-    }
-
-    .ghost {
+    .nav-list {
+        width: 100%;
+        /* border: 5px solid var(--clr2); */
+        position: fixed;
+        left: -100%;
+        top: 70px;
+        border-radius: 0 0 25px 25px;
+        background: #ffffff;
         display: flex;
-        justify-content: center;
         flex-direction: column;
         align-items: center;
+        transition: all 0.5s ease-in-out;
     }
 
-    .fa-facebook:hover {
-        color: #1877F2;
+    .nav-list.active {
+        left: 0;
     }
 
-    .fa-linkedin-in:hover {
-        color: #0074B5;
+    .nav-item {
+        margin: .5rem auto;
+        padding: .3rem;
     }
 
-    .fa-instagram:hover {
-        color: #D90055;
-    }
-
-    .fa-telegram:hover {
-        color: #2F9DDF;
-    }
-
-    .fa-whatsapp:hover {
-        color: #13990A;
-    }
-
-    .fa-github:hover {
-        color: #49505B;
-    }
-
-    .fa-house:hover {
-        color: #49505B;
-    }
-
-    .fa-envelope:hover {
-        color: var(--clr3);
-    }
-
-    .sec h1,
-    .sec h2 {
-        font-size: 4em;
-    }
-
-    .sec h3 {
-        font-size: 1em;
-    }
-
-}
-
-@media screen and (max-width: 660px) {
-
-    .sec h1,
-    .sec h2 {
-        font-size: 4em;
-    }
-
-    .sec h3 {
-        top: 65%;
-        transform: translateY(-65%);
-    }
-}
-
-@media screen and (max-width: 565px) {
-
-    .sec h1,
-    .sec h2 {
-        font-size: 3.5em;
-    }
-
-}
-
-@media screen and (max-width: 520px) {
-
-    .sec h1,
-    .sec h2 {
-        font-size: 3em;
-    }
-}
-
-@media screen and (max-width: 425px) {
-
-    .sec h1,
-    .sec h2 {
-        font-size: 2.5em;
-    }
-
-    .sec h3 {
-        font-size: 0.7em;
-        top: 62%;
-        transform: translateY(-62%);
-    }
-}
-
-@media screen and (max-width: 360px) {
-
-    .sec h1,
-    .sec h2 {
-        font-size: 2em;
-    }
-
-    .sec h3 {
-        font-size: 0.7em;
-        top: 60%;
-        transform: translateY(-60%);
-    }
-}
-
-@media screen and (max-width: 300px) {
-
-    .sec h1,
-    .sec h2 {
-        font-size: 1.8em;
-    }
-
-    .sec h3 {
-        font-size: 0.6em;
-        top: 58%;
-        transform: translateY(-58%);
-    }
-}
-
-@media screen and (max-width: 255px) {
-
-    .sec h1,
-    .sec h2 {
-        font-size: 1.2em;
-    }
-
-    .sec h3 {
-        font-size: 0.5em;
-
-    }
-}
-
-@media screen and (max-width: 255px) {
-
-    .sec h1,
-    .sec h2 {
-        font-size: 1em;
-    }
-
-    .sec h3 {
-        font-size: 0.3em;
-
+    .nav-link {
+        color: black;
+        font-size: 1.3rem;
+        font-weight: 500;
+        letter-spacing: 2px;
     }
 }
