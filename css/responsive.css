@@ -26,7 +26,7 @@
         position: fixed;
         left: -100%;
         top: 70px;
-        border-radius: 0 0 25px 25px;
+        border-radius: 0 0 2rem 2rem;
         background: var(--clr4);
         display: flex;
         flex-direction: column;
@@ -44,9 +44,10 @@
 
     .nav-link {
         color: var(--clr1);
-        font-size: 1.3rem;
+        font-size: 1.6rem;
         font-weight: bold;
-        letter-spacing: 2px;
+        letter-spacing: 3px;
+        font-family: 'Architects Daughter', cursive;
     }
 
     .name,
@@ -56,6 +57,18 @@
 
     .name-box h3 {
         font-size: 1.5rem;
+    }
+
+    .overlay {
+        width: 100%;
+        height: 100vh;
+        background: var(--clr1);
+        opacity: 0.9;
+        position: fixed;
+        top: 70px;
+        left: -100%;
+        transition: all 0.7s ease-in-out;
+        z-index: 99;
     }
 
     .overlay.active {
