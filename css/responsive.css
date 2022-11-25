@@ -23,15 +23,13 @@
 
     .nav-list {
         width: 100%;
-        /* border: 5px solid var(--clr2); */
         position: fixed;
         left: -100%;
         top: 70px;
         border-radius: 0 0 25px 25px;
-        background: #ffffff;
+        background: var(--clr3);
         display: flex;
         flex-direction: column;
-        align-items: center;
         transition: all 0.5s ease-in-out;
     }
 
@@ -45,9 +43,77 @@
     }
 
     .nav-link {
-        color: black;
+        color: var(--clr1);
         font-size: 1.3rem;
         font-weight: 500;
         letter-spacing: 2px;
     }
+
+    .name,
+    .last-name {
+        font-size: 5rem;
+    }
+
+    .name-box h3 {
+        font-size: 1.5rem;
+    }
 }
+
+@media screen and (max-width: 600px) {
+    .name,
+    .last-name {
+        font-size: 4rem;
+    }
+
+    .name-box h3 {
+        font-size: 1.2rem;
+    }   
+}
+
+@media screen and (max-width: 500px) {
+    .name,
+    .last-name {
+        font-size: 3rem;
+    }
+
+    .name-box h3 {
+        font-size: 1rem;
+    }   
+}
+
+@media screen and (max-width: 400px) {
+    .name,
+    .last-name {
+        font-size: 2rem;
+    }
+
+    .name-box h3 {
+        font-size: 0.7rem;
+        margin-top: 0.8rem;
+    }   
+}
+
+@media screen and (max-width: 300px) {
+    .name,
+    .last-name {
+        font-size: 1.5rem;
+    }
+
+    .name-box h3 {
+        font-size: 0.5rem;
+        margin-top: 0.6rem;
+    }   
+}
+
+@media screen and (max-width: 245px) {
+    .name,
+    .last-name {
+        font-size: 0.5rem;
+    }
+
+    .name-box h3 {
+        font-size: 0.3rem;
+        margin-top: 0.5rem;
+    }   
+}
+
