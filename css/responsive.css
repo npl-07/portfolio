@@ -74,6 +74,7 @@
     .overlay.active {
         left: 0;
     }
+
 }
 
 @media screen and (max-width: 600px) {
