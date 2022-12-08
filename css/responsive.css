@@ -41,13 +41,13 @@
     }
 
     .nav-item {
-        margin: .7rem auto;
-        padding: .3rem;
+        margin: .6rem auto;
+        padding: .2rem;
     }
 
     .nav-link {
         color: var(--clr1);
-        font-size: 1.5rem;
+        font-size: 1.6rem;
         font-weight: bold;
         letter-spacing: 3px;
         font-family: 'Architects Daughter', cursive;
