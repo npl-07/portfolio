@@ -36,7 +36,7 @@
 
     .nav-list.active {
         left: 0;
-        height: 40vh;
+        height: 35vh;
         transition: all 0.8s ease-in-out;
     }
 
