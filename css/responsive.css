@@ -28,7 +28,7 @@
         left: -100%;
         top: 70px;
         border-radius: 0 0 2rem 2rem;
-        background: var(--clr4);
+        background: #ff0f5b;
         display: flex;
         flex-direction: column;
         transition: all 0.9s ease-in-out;

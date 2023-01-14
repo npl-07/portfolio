@@ -16,15 +16,13 @@
     --clr5: #ffffff;
 }
 
+body,
 html {
-    scroll-behavior: smooth;
-}
-
-body {
     width: 100%;
-    height: 100vh;
+    height: 100%;
+    background: var(--clr1);
     font-family: 'Fira Sans', sans-serif;
-    /* background: var(--clr1); */
+    scroll-behavior: smooth;
 }
 
 .navbar {
@@ -134,7 +132,7 @@ video {
 .name-box {
     /* border: 2px solid green; */
     width: 100%;
-    height: 100%;
+    height: 100vh;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -165,7 +163,7 @@ h2 {
 
 .name-box h3 {
     color: var(--clr2);
-    font-size: 1.8rem;
+    font-size: 2rem;
     letter-spacing: 0.1rem;
     text-transform: capitalize;
     animation: animate 7s linear forwards;
@@ -255,4 +253,50 @@ h2 {
     }
 }
 
-/* SEÇÃO ABOUT - CONTAINER */
+/* SEÇÃO ABOUT */
+
+.about-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about {
+    background: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.text {
+    margin: 2rem 0;
+    font-family: 'Architects Daughter', cursive;
+}
+
+.text h2 {
+    text-align: center;
+    color: var(--clr2);
+    font-size: 4em;
+}
+
+.text p {
+    color: var(--clr3);
+    margin: 0 10%;
+    font-size: 1.6rem;
+    text-align: justify;
+}
+
+span {
+    font-size: 3rem;
+    color: var(--clr4);
+}
+
+.photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    max-width: 1200px;
+    max-height: 600px;
+}
